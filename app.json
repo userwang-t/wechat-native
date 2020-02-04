@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/splash/splash",
+    "pages/profile/profile",
+    "pages/search/search",
+    
+    "pages/board/board",
+    "pages/item/item",
+    "pages/list/list"
+  ],
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "榜单",
+        "pagePath": "pages/board/board",
+        "iconPath": "images/board.png",
+        "selectedIconPath": "images/board-actived.png"
+      },
+      {
+        "text": "搜索",
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-actived.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ]
+},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTitleText": "豆瓣电影",
+    "backgroundColor": "#ccc",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "usingComponents":{
+    "product":"components/product/product"
+  },
+  "sitemapLocation": "sitemap.json"
+}
